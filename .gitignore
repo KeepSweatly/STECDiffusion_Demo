@@ -1,0 +1,42 @@
+# =========================
+# Data directories
+# =========================
+
+
+results/
+
+# =========================
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / local config
+.vscode/
+.claude/
+
+# Data / experiment outputs - 按需增删
+experiments/
+results/
+model_stations/
+val_stations/
+figures/
+
+
+# Large data/model artifacts
+*.csv
+*.pdf
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.mat
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+
+
+
